@@ -2,16 +2,20 @@
 
 A Basic and simple, yet elegant login page built using Node.js and the Handlebars view engine. This project demonstrates server-side rendering, user authentication, and session management, providing a clean and efficient login flow for users.
 
-📜 Features
+📜 Features:
+
 User Authentication: Secure user login with session management.
 Handlebars Integration: Server-side rendering with dynamic content.
 Session Handling: Persistent user sessions using Express.js.
 Responsive Design: Mobile-first design using CSS for a sleek UI.
 Clean Code: Follows the MVC architecture pattern for scalability.
-🚀 Demo
+
+🚀 Demo:
+
 While this project is designed to run locally, you can easily host it on platforms like Heroku or Vercel. Clone and run it on your local machine.
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
+
 Node.js: JavaScript runtime environment.
 Express.js: Fast, minimal web framework for Node.js.
 Handlebars.js: Templating engine for generating dynamic HTML.

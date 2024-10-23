@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'Netflix Sans regular';
+    src: url('../font/NetflixSans_W_Rg.woff2') format('woff2');
+
+}
+
+@font-face {
+    font-family: 'Netflix Sans Black';
+    src: url('./font/NetflixSans_W_Blk.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Netflix Sans Bold';
+    src: url('./font/NetflixSans_W_Bd.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Netflix Sans Medium';
+    src: url('./font/NetflixSans_W_Md.woff2') format('woff2');
+}
+
+* {
+    font-family: 'Netflix Sans regular';
+    border: 0px;
+    margin: 0px;
+
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+
+
+
+}
+main{
+    height: max-content;
+}
+
+
+.main {
+    background-image: url(/images/backgroud\ image.jpg);
+    height: 105vh;
+    width: 100vw;
+    position: relative;
+    background-position: center top;
+    background-size: max(1570px, 100vw);
+    background-repeat: no-repeat;
+    min-height: 90vh;
+
+}
+
+.gradiant {
+    height: 160px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%);
+}
+
+
+.main .box {
+    height: 100%;
+    width: 100vw;
+    opacity: 0.66;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 65vw;
+    margin: auto;
+    height: 85px;
+    top: 20px;
+
+
+
+}
+
+nav img {
+    height: 80px;
+    width: 180px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.nav2 {
+    display: flex;
+    width: 250px;
+    position: relative;
+
+}
+
+.nav2 .lang {
+    float: left;
+    margin-right: 10px;
+
+
+
+
+}
+
+.lang button {
+
+    padding: 5px 12px 6px 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-family: 'Netflix Sans regular';
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.383);
+    position: relative;
+
+}
+.options select{
+    position: absolute;
+    width: 118px;
+    height: 33px;                      
+    opacity: 0; 
+    z-index: 5; 
+    cursor: pointer;
+}
+
+.signin button {
+    padding: 8px 14px;
+    font-family: 'Netflix Sans Medium';
+    color: white;
+    background-color: rgb(229, 9, 20);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.signin button:hover {
+    background-color: rgb(153, 2, 10);
+}
+
+nav button {
+    position: relative;
+    z-index: 3;
+}
+
+
+.heading {
+    display: flex;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    gap: 27px;
+    padding: 170px;
+
+
+}
+
+.heading>:nth-child(1) {
+    font-family: 'Netflix Sans Black';
+    font-weight: 900;
+    font-size: 64px;
+    text-align: center;
+}
+
+.heading> :nth-child(2) {
+    font-family: 'Netflix Sans Medium';
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.heading> :nth-child(3) {
+    font-family: 'Netflix Sans regular';
+    font-size: 16px;
+    text-align: center;
+
+
+}
+
+.gradient-bottom {
+    height: 30vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+
+    background: linear-gradient(180deg, rgba(113, 113, 113, 0) 0%, rgb(0 0 0 / 65%) 55%);
+}
+
+.separation {
+    align-items: center;
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    border-top-left-radius: 90% 130%;
+    border-top-right-radius: 90% 130%;
+    border-bottom: none;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    padding: 2px;
+
+}
+
+.separation-content {
+    align-items: center;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    position: relative;
+    top: 3px;
+}
+
+.btn_get {
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    font-family: 'Netflix Sans Medium';
+    color: white;
+    background-color: rgb(229, 9, 20);
+    cursor: pointer;
+
+}
+
+.btn_get:hover {
+    background-color: rgb(153, 2, 10);
+}
+
+.main input {
+    color: white;
+    padding: 19px 220px 14px 25px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 4px;
+    background-color: rgba(21, 21, 21, 0.563);
+    border: 1px solid rgba(255, 255, 255, 0.498);
+    margin-right: 3px;
+
+}
+
+
+
+

@@ -1,0 +1,88 @@
+
+
+
+
+    <div class="wrapper">
+        <span class="rotate-bg"></span>
+        <span class="rotate-bg2"></span>
+
+        <div class="form-box login">
+            <h2 class="title animation" style="--i:0; --j:21">Login</h2>
+            <form action="login" method="POST">
+
+                <div class="input-box animation" style="--i:1; --j:22">
+                    <input type="text" required name="username" />
+                    <label for="">Username</label>
+                    <i class="bx bxs-user"></i>
+                </div>
+
+                <div class="input-box animation" style="--i:2; --j:23">
+                    <input type="password" required name="password" />
+                    <label for="">Password</label>
+                    <i class="bx bxs-lock-alt"></i>
+                    
+                </div>
+                <button type="submit" class="btn animation" style="--i:3; --j:24">Login</button>
+                <div class="linkTxt animation" style="--i:5; --j:25">
+                    <p>Don't have an account?
+                        <a href="#" class="register-link">Sign Up</a>
+                    </p> <br>
+                    <h3 class="error">{{msg}}</h3>
+
+                </div>
+            </form>
+        </div>
+
+        <div class="info-text login" style="color: white;">
+            <h2 class="animation" style="--i:0; --j:20 ">Welcome Back!</h2>
+            <p class="animation" style="--i:1; --j:21">Your next favorite movie is
+                just a login away!</p>
+        </div>
+
+        <div class="form-box register">
+
+            <h2 class="title animation" style="--i:17; --j:0">Sign Up</h2>
+            
+           
+
+            <form action="/signup" method="POST">
+
+                <div class="input-box animation" style="--i:18; --j:1">
+                    <input type="text" name="newusername" required />
+                    <label for="" >Username</label>
+                    <i class="bx bxs-user"></i>
+                </div>
+
+                <div class="input-box animation" style="--i:19; --j:2">
+                    <input type="email"name="email" required />
+                    <label for="" >Email</label>
+                    <i class="bx bxs-envelope"></i>
+                </div>
+
+                <div class="input-box animation" style="--i:20; --j:3">
+                    <input type="password" name="newpassword" required />
+                    <label for="" >Password</label>
+                    <i class="bx bxs-lock-alt"></i>
+                </div>
+
+                <button type="submit" class="btn animation" style="--i:21;--j:4">Sign
+                    Up</button>
+
+                <div class="linkTxt animation" style="--i:22; --j:5">
+                    <p>Already have an account?
+                        <a href="#" class="login-link">Login</a>
+                    </p>
+                </div>
+
+            </form>
+        </div>
+
+        <div class="info-text register" style="color: white;">
+            <h2 class="animation" style="--i:17; --j:0;">Welcome to Netflix</h2>
+            <p class="animation" style="--i:18; --j:1;">Sit back, relax, and enjoy
+                unlimited movies.</p>
+        </div>
+
+    </div>
+
+  

@@ -24,6 +24,6 @@ Express-Session: For handling user sessions.
 📸 Screenshots
 
 ![image](https://github.com/user-attachments/assets/17d0c0b6-d2d4-436c-98bd-0c5e968a7328)
-# Redirecting login to netflix home page
+# Redirecting login to netflix clone page which i created before.
 
 ![image](https://github.com/user-attachments/assets/3a1ba74d-956b-403d-ac57-4f234f8be206)
